@@ -37,7 +37,7 @@ public class signup extends AppCompatActivity {
                     SharedPreferences credentials = getSharedPreferences(CREDENTIAL_SHARED_PREF, Context.MODE_PRIVATE);
                     SharedPreferences.Editor editor = credentials.edit();
                     editor.putString("Password", strPassword);
-                    editor.putString("Username ", strUsername);
+                    editor.putString("Username", strUsername);
                     editor.commit();
                     signup.this.finish();
                 }
