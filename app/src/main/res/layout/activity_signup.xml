@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@drawable/login"
+    tools:context=".signup">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="50dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="95dp"/>
+
+    <EditText
+        android:id="@+id/ed_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="User name"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/ed_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColorHint="@color/white"
+        android:inputType="textPassword"/>
+    <EditText
+        android:id="@+id/ed_confirm_pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:textColorHint="@color/white"
+        android:inputType="textPassword"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Gender:"
+        android:textColor="@color/white"
+        android:textSize="23sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textColor="@color/white"
+            android:textSize="20dp"/>
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:text="Female" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_create_user"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="SignUP"
+        android:textColor="@color/white"
+        android:textSize="24dp" />
+
+
+</LinearLayout>
