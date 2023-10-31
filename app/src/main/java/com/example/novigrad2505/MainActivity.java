@@ -47,6 +47,14 @@ public class MainActivity extends AppCompatActivity {
                 if (strUsername != null && username_from_ed != null && strUsername.equalsIgnoreCase(username_from_ed)){
                     if (strPassword != null && password_from_ed != null && strPassword.equalsIgnoreCase(password_from_ed)){
                         Toast.makeText(MainActivity.this, "Login Successful", Toast.LENGTH_SHORT).show();
+                        btnLogin.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View v) {
+                                Intent intent = new Intent(MainActivity.this, login.class );
+                                startActivity(intent);
+
+                            }
+                        });
                     } else{
                         Toast.makeText(MainActivity.this, "Login Failed", Toast.LENGTH_SHORT).show();
                     }
