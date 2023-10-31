@@ -33,7 +33,7 @@ public class signup extends AppCompatActivity {
                 String strConfirmPassword = edConfirmPassword.getText().toString();
                 String strUsername = edUsername.getText().toString();
 
-                if ( strPassword != null && strConfirmPassword != null && strConfirmPassword.equalsIgnoreCase(strConfirmPassword)){
+                if (strPassword != null && strConfirmPassword != null && strConfirmPassword.equalsIgnoreCase(strConfirmPassword)){
                     SharedPreferences credentials = getSharedPreferences(CREDENTIAL_SHARED_PREF, Context.MODE_PRIVATE);
                     SharedPreferences.Editor editor = credentials.edit();
                     editor.putString("Password", strPassword);
