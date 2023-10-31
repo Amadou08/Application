@@ -23,6 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="User name"
+        android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:layout_marginTop="10dp"/>
 
@@ -31,6 +32,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="Password"
+        android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:inputType="textPassword"/>
     <EditText
@@ -38,6 +40,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="Confirm Password"
+        android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:inputType="textPassword"/>
 
