@@ -8,11 +8,10 @@
     tools:context=".login">
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/welcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Welcome"
         android:textColor="#0033FF"
         android:textSize="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
