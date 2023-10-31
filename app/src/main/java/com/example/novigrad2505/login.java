@@ -7,12 +7,12 @@ import android.widget.TextView;
 
 
 public class login extends AppCompatActivity {
-    private TextView WelcomE;
+    private TextView Welcome;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        WelcomE = findViewById(R.id.welcome);
+        Welcome = findViewById(R.id.welcome);
     }
 }
