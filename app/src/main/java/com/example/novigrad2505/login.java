@@ -17,7 +17,6 @@ public class login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         Welcome = findViewById(R.id.welcome);
         edUsername = findViewById(R.id.ed_username);
-        setContextView(R.layout.activity_login);
         Welcome = findViewById(R.id.welcome);
         Welcome.setText("Hi "+ edUsername);
     }
