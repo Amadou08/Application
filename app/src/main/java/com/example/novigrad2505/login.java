@@ -18,6 +18,6 @@ public class login extends AppCompatActivity {
         Welcome = findViewById(R.id.welcome);
         edUsername = findViewById(R.id.ed_username);
         Welcome = findViewById(R.id.welcome);
-        Welcome.setText("Hi "+ edUsername);
+        Welcome.setText("Hi "+ "Amadou");
     }
 }
